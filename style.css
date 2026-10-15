@@ -243,7 +243,67 @@ h3 {
 button:hover {
     transform: translateY(-3px);
     cursor: pointer; 
-    box-shadow: 0 10px 10px #00ff9c;
+    /* box-shadow: 0 10px 10px #00ff9c; */
+}
+.pop {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #263449;
+    margin-left: 420px;
+    margin-top: -200px;
+    background-color: #000;
+    backdrop-filter: blur(0px);
+    border-radius: 16px;
+}
+.del {
+    margin-left: 320px;
+    margin-top: 20px; 
+    background: linear-gradient(135deg, #0a8f5c, #00ff9c);
+    border: none;
+    border: 0px solid none;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+.pop-head {
+    font-family: "press start 2p",monospace,sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 20px;
+    color: #00e500;
+}
+.pop-head1 {
+    font-family: "press start 2p",monospace,sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 30px; 
+    color: #00e500;
+}
+#load {
+    font-size: 20px;
+    text-decoration: underline;
+    padding-left: 0px;
+    margin-top: 20px;
+    color: #15c783;
+}
+.pop-para {
+    font-family: "press start 2p",monospace,sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-left: 80px;
+    color: #0a8f5c;
+}
+.btn {
+    margin-left: -400px;
+}
+.pop-para1 {
+    font-family: "press start 2p",monospace,sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-left: 100px;
+    color: #0a8f5c;
 }
 
 @media screen and  (max-width: 480px){
@@ -332,6 +392,26 @@ button:hover {
     #hand {
         font-size: 34px;
         margin-left: 0px;
+    }
+    .pop {
+        margin-left: 0px;
+        width: 350px;
+    }
+    .del {
+        margin-left: 270px;
+    }
+    .pop-head {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .pop-head1 {
+        font-size: 15px;
+    }
+    .pop-para {
+        margin-left: -10px;
+    }
+    .pop-para1 {
+        margin-left: -10px;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
