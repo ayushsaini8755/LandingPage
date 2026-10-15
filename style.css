@@ -6,7 +6,6 @@
 *{
     font-family: "Bricolage Grotesque", "Segoe UI", Arial, sans-serif;
     box-sizing: border-box;
-    animation: animate 5s infinite alternate;
 }
 body {
     background: url("hack.png");
